@@ -34,20 +34,17 @@ This work is licensed under a
 We focused on reference samples derived from visual interpretation with a minimum spatial support of 30 meters (Landsat and Sentinel resolution). These samples represent LULC classes for points or regions. An automated script (Python, R, or Jupyter Notebook) was developed for each dataset to:
 
 - Download vector files.
-- Convert existing LULC classes into corresponding Global Pasture Watch (GPW) classes:
-      - Seeded grass
-      - Natural or semi-natural grass
-      - Other
+- Convert existing LULC classes into corresponding Global Pasture Watch (GPW) classes: Seeded grass; Natural or semi-natural grass and; Other
 - Assign weights to samples based on their level of mixture (explained in the project).
 - Generate a harmonized output table with the following columns:
 
 | Attribute Name | Definition                                                |
 | -------------- | ----------------------------------------------------------- |
-| dataset_name     | The name of original dataset LULC|
-| reference_year | The reference year of samples the orginal dataset.|
-| original_lulc_class      | Name classe land use and land cover the original dataset. |
-| gpw_lulc_class      | Name classe land use and land cover the Global Pasture Watch project. |
-| sample_weight      | The sample weight   |
+| dataset_name     | Name of the original dataset|
+| reference_year | Reference year of the samples in the original dataset|
+| original_lulc_class      | Original land use and land cover class name|
+| gpw_lulc_class      |GPW land use and land cover class name|
+| sample_weight      |Weight assigned to the sample|
 
 The land use and land cover (LULC) classes from the original databases were associated to the GPW project's classes using definitions from the original databases and the following ontology as guideline: 
 
