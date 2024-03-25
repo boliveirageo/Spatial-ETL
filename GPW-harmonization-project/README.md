@@ -66,6 +66,7 @@ This example the column in output harmonization data
 The ontology guideline provides a standardized classification framework for LULC classes. Here's a breakdown of the GPW classes used in this project, along with corresponding descriptions and examples:
 
 | level	| label	| class	| description	| examples	| gpw class |
+| ---------| ----------- | ----------- | ----------- | ----------- | ----------- |
 | 5	| GRASSLAND	| landcover	| Land (and the vegetation growing on it) devoted to the production of introduced or indigenous forage for harvest by grazing, cutting, or both. Usually managed to arrest successional processes. The term ‘grassland’ is synonymous with pastureland when referring to an imposed grazing-land ecosystem. | The vegetation of grassland in this context is broadly interpreted to include grasses, legumes and other forbs, and at times woody species may be present 		| na |
 | 5.1	| Annual grassland	| landuse	| Forage is established annually, usually with annual plants, and generally involves soil disturbance, removal of existing vegetation, and other cultivation practices |  | 2 |
 | 5.2	| Campos	| landcover	| Grassland consisting mainly of grasses, along with herbs, small shrubs and occasional trees; on undulating and hilly landscape, with variable soil fertility. Differs from Cerrado in having a longer and more severe winter and a relative abundance of native legumes. | Northern part of the Pampa. The sub-tropical climate is humid, warm in summer and mild in winter. | 1 |
