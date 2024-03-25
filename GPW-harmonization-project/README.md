@@ -40,16 +40,6 @@ We focused on reference samples derived from visual interpretation with a minimu
       - Other
 - Assign weights to samples based on their level of mixture (explained in the project).
 - Generate a harmonized output table with the following columns:
-      - dataset_name: Name of the original dataset (LULC)
-      - reference_year: Reference year of the samples in the original dataset
-      - original_lulc_class: Original land use and land cover class name
-      - gpw_lulc_class: GPW land use and land cover class name
-      - sample_weight: Weight assigned to the sample
-
-The land use and land cover (LULC) classes from the original databases were associated to the GPW project's classes using definitions from the original databases and the following ontology as guideline: 
-
-This example the column in output harmonization data
-
 
 | Attribute Name | Definition                                                |
 | -------------- | ----------------------------------------------------------- |
@@ -58,6 +48,8 @@ This example the column in output harmonization data
 | original_lulc_class      | Name classe land use and land cover the original dataset. |
 | gpw_lulc_class      | Name classe land use and land cover the Global Pasture Watch project. |
 | sample_weight      | The sample weight   |
+
+The land use and land cover (LULC) classes from the original databases were associated to the GPW project's classes using definitions from the original databases and the following ontology as guideline: 
 
 
 ***
